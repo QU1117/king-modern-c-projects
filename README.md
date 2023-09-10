@@ -1,1 +1,1 @@
-This is a repo for programming projects I've completed from the book "C Programming. A modern approach", 2nd edition, by K. N. King.
+This is a repo for programming projects I've completed from the book "C Programming. A modern approach", 2nd edition, by K. N. King. I didn't commit here my answers to any quiz-like exercises, only to those where you need to code, and also projects.
