@@ -2,10 +2,14 @@
 
 int main(void)
 {
-    int first_number, middle_number, last_number;
+    int user_number, first_number, middle_number, last_number;
 
-    printf("Enter a three digit number: ");
-    scanf("%1d%1d%1d", &first_number, &middle_number, &last_number);
+    printf("Enter a two digit number: ");
+    scanf("%d", &user_number);
 
-    printf("The reversal is %d%d%d\n", last_number, middle_number, first_number);
+    first_number  = user_number % 10;
+    middle_number = (user_number / 10) % 10;
+    last_number   = (user_number / 10) / 10;
+
+    printf("The reversal is %d%d%d\n", first_number, middle_number, last_number);
 }
