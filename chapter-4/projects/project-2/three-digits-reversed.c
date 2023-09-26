@@ -4,7 +4,7 @@ int main(void)
 {
     int user_number, first_number, middle_number, last_number;
 
-    printf("Enter a two digit number: ");
+    printf("Enter a three digit number: ");
     scanf("%d", &user_number);
 
     first_number  = user_number % 10;
